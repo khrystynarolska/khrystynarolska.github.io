@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/reset.scss'
 import './App.scss';
+import './style/__fonts.scss';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
 import About from './components/About/About';

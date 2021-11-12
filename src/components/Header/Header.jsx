@@ -1,4 +1,4 @@
-import s from './Header.module.scss'
+// import s from './Header.module.scss'
 
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
       <div className='menu__list list'>
         <ul className='list__ul-menu'>
           <li className='list__ul-menu item'>
-            <a href="">
+            <a>
               icon
               <span className='item__text'>ABOUT</span>
             </a>

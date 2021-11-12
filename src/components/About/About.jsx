@@ -9,10 +9,9 @@ const About = () => (
     <div className={s.content}>
       <div className={s.description}>
         <p>
-          I am Khrystyna Rolska, junior Front-End Developer.I have experience with HTML, 
-          CSS, BEM methodology, SASS preprocessor, build tool Gulp, module bundler Webpack, 
-          JavaScript, jQuery library, Git and Vue. I want to learn React. I like 
-          communicate with people and teamwork
+          I am Khrystyna Rolska, I studied at Beetroot Academy. There I studied at the 
+          Front-End Developer course. I got experience to learn something new fast, I 
+          had teamwork and presentation practice.
         </p>
       </div>
       <InfoList />

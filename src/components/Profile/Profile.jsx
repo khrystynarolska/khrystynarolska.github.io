@@ -17,10 +17,10 @@ const Profile = () => {
         </div>
       </div>
       <div className={s.links}>
-        <a href="">
+        <a>
           <span>Download my CV</span>
         </a>
-        <a href="">
+        <a>
           <span>Contact Me</span>
         </a>
       </div>

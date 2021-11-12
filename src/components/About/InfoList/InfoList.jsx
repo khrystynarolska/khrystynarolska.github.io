@@ -3,23 +3,23 @@ import s from './InfoList.module.scss';
 
 const infoList = [
   {
-    label: 'Age',
-    value: 24
-  },
-  {
-    label: 'Сountry',
-    value: 'Ukraine'
-  },
-  {
     label: 'Сity',
-    value: 'Khmelnytskyi'
+    value: 'Khmelnytskyi, Ukraine'
+  },
+  {
+    label: 'Email',
+    value: 'krystynarolskaya2017@gmail.com'
+  },
+  {
+    label: 'Phone',
+    value: '+38 (097) 00 79 067'
   },
 ]
 
 const InfoList = () => (
   <div className={s.info}>
-    {infoList.map(i => (
-      <Info key={i.label} label={i.label} value={i.value} />
+    {infoList.map((i, idx) => (
+      <Info key={idx} label={i.label} value={i.value} />
     ))}
   </div>
 )
