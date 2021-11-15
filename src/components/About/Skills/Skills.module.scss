@@ -1,0 +1,14 @@
+.skills {
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  p {
+    font-family: "Open Sans Regular";
+    padding: 30px;
+  }
+}
