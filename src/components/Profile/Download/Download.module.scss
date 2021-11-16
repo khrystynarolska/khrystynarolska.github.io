@@ -1,12 +1,14 @@
 .download {
   display: flex;
-  justify-content: space-around;
-  padding: 25px 0;
+  justify-content: center;
   position: relative;
 
   a {
     text-decoration: none;
     color: #000;
+    padding: 20px 0;
+    width: 50%;
+    text-align: center;
 
     span {
       font-family: "Gotham Medium Regular";

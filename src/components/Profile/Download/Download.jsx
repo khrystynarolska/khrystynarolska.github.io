@@ -1,6 +1,6 @@
 import s from './Download.module.scss'
 
-const lnks = [
+const links = [
   {
     label: 'Download my CV', 
     href: '#downloadCV'
@@ -14,7 +14,7 @@ const lnks = [
 const Download = () => {
   return (
     <div className={s.download}>
-      {lnks.map((i, idx) => (
+      {links.map((i, idx) => (
         <a href={i.href} key={idx}>
           <span>{i.label}</span>
         </a>
