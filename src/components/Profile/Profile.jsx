@@ -1,6 +1,7 @@
 import s from './Profile.module.scss'
 import img from './assets/my-photo.jpeg'
 import Links from './Links/Links'
+import Download from './Download/Download'
 
 const Profile = () => {
   return (
@@ -15,14 +16,7 @@ const Profile = () => {
           <Links />
         </div>
       </div>
-      <div className={s.links}>
-        <a>
-          <span>Download my CV</span>
-        </a>
-        <a>
-          <span>Contact Me</span>
-        </a>
-      </div>
+      <Download />
     </div>
   )
 }
