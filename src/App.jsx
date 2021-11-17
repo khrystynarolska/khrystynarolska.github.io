@@ -2,14 +2,14 @@ import React from 'react';
 import './style/reset.scss'
 import './App.scss';
 import './style/__fonts.scss';
-import Header from './components/Header/Header';
+import Menu from './components/Menu/Menu';
 import Profile from './components/Profile/Profile';
 import About from './components/About/About';
 
 const App = () => {
   return (
     <div className='container'>
-      <Header />
+      <Menu />
       <Profile />
       <About />
     </div>
