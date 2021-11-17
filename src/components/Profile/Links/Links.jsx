@@ -21,7 +21,7 @@ const Links = () => {
       <ul>
         {links.map((i, idx) => (
           <li key={idx}>
-            <a href={i.href} target='_blank'>
+            <a href={i.href} target='_blank' rel="noreferrer">
               <i className={i.className} aria-hidden="true"></i>
             </a>
           </li>

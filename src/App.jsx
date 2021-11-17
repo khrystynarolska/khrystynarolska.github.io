@@ -1,19 +1,31 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import './style/reset.scss'
 import './App.scss';
 import './style/__fonts.scss';
 import Menu from './components/Menu/Menu';
 import Profile from './components/Profile/Profile';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Resume from './components/Resume/Resume';
+import Works from './components/Works/Works';
 
 const App = () => {
   return (
-    <div className='container'>
-      <Menu />
-      <Profile />
-      <About />
-    </div>
-  );
+    <BrowserRouter>
+      <div className='container'>
+        <Menu />
+        <Profile />
+        <Routes>
+          <Route path='/' element={<About />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/works' element={<Works />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 export default App;

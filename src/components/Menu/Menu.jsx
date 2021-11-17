@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import s from './Menu.module.scss'
 
 const items = [
   {
-    href: '/about',
+    href: '/',
     className: 'fa fa-user',
     lable: 'ABOUT'
   },
@@ -30,10 +31,10 @@ const Menu = () => {
         <ul>
           {items.map((i, idx) => (
           <li key={idx}>
-            <a href={i.href}>
+            <Link to={i.href}>
               <i className={i.className} aria-hidden="true"></i>
               <span>{i.lable}</span>
-            </a>
+            </Link>
           </li>
         ))}
         </ul>
