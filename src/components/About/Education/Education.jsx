@@ -28,7 +28,7 @@ const Education = () => {
         <div className={s.button}>
           <button>Сertificate</button>
         </div>
-    </Wrapper>
+      </Wrapper>
     </div>
   )
 }
