@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './style/reset.scss'
@@ -10,10 +10,16 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
 import Works from './components/Works/Works';
+import history  from './history';
 
 const App = () => {
+
+  useEffect(() => {
+    history.push('/');
+  }, []);
+  
   return (
-    <BrowserRouter>
+    <BrowserRouter history={history}>
       <div className='container'>
         <Menu />
         <Profile />
