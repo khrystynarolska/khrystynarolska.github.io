@@ -1,0 +1,35 @@
+// .education {
+  
+// }
+
+.content {
+  font-family: "Open Sans Regular";
+  font-size: 15px;
+  line-height: 27px;
+  margin: 40px 0 0 30px;
+
+  p {
+    color: #B35C0B;
+  }
+}
+
+.button {
+
+  button {
+    color: #B35C0B;
+    background: #fff;
+    padding: 7px 20px;
+    margin: 20px 30px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background: #B35C0B;
+    color: #fff;
+    border: 1px solid #B35C0B;
+  }
+}

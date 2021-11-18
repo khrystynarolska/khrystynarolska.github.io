@@ -25,6 +25,9 @@ const Education = () => {
             <span>{i.trainingPeriod}</span>
           </div>
         ))}
+        <div className={s.button}>
+          <button>Сertificate</button>
+        </div>
     </Wrapper>
     </div>
   )
