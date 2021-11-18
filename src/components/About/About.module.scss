@@ -1,11 +1,4 @@
-// .about {
-//   overflow: hidden;
-//   height: auto;
-//   position: absolute;
-//   left: 553px;
-//   right: 0;
-//   top: 80px;
-//   bottom: 185px;
-//   z-index: 1;
-//   transition: visibility 1s linear, opacity 0s linear;
-// }
+.about {
+  height: 610px;
+  overflow-y: scroll;
+}
