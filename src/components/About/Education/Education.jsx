@@ -27,7 +27,7 @@ const Education = () => {
           </div>
         ))}
         <div className={s.certificate}>
-          <a href={CertificatePDF} target="_blank" className={s.certificateFile}> Сertificate</a>
+          <a href={CertificatePDF} target="_blank" className={s.certificateFile}>Certificate</a>
         </div>
       </Wrapper>
     </div>
