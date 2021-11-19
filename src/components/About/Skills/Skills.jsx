@@ -4,7 +4,7 @@ import SkillsItem from './SkillsItem/SkillsItem';
 import Technologies from './Technologies/Technologies';
 // import Technology from './Technologies/Technology/Technology';
 
-const skills = ['HTML', 'CSS', 'JAVA SCRIPT', 'REACT', 'VUE']
+const skills = ['HTML', 'CSS', 'JAVA SCRIPT', 'REACT']
 
 const Skills = () => (
   <div className={s.skills}>
