@@ -8,11 +8,6 @@ const items = [
     lable: 'ABOUT'
   },
   {
-    href: '/resume',
-    className: 'fa fa-file-text',
-    lable: 'RESUME'
-  },
-  {
     href: '/works',
     className: 'fa fa-paint-brush',
     lable: 'WORKS'
