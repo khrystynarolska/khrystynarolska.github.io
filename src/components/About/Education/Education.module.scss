@@ -13,20 +13,22 @@
   }
 }
 
-.button {
+.certificate {
+  display: inline-block;
+  margin: 30px 0 10px 30px;
 
-  button {
+  .certificateFile {
     color: #B35C0B;
     background: #fff;
     padding: 7px 20px;
-    margin: 20px 0 0 30px;
     border: 1px solid #808080;
     border-radius: 4px;
     font-size: 13px;
+    text-decoration: none;
     text-transform: uppercase;
   }
 
-  button:hover {
+  .certificateFile:hover {
     cursor: pointer;
     background: #B35C0B;
     color: #fff;

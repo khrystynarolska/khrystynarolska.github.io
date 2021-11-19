@@ -1,5 +1,6 @@
 import s from './Education.module.scss';
 import Wrapper from '../Wrapper/Wrapper';
+import CertificatePDF from './Сertificate.pdf';
 
 const institutions = [
   {
@@ -25,8 +26,8 @@ const Education = () => {
             <span>{i.trainingPeriod}</span>
           </div>
         ))}
-        <div className={s.button}>
-          <button>Сertificate</button>
+        <div className={s.certificate}>
+          <a href={CertificatePDF} target="_blank" className={s.certificateFile}> Сertificate</a>
         </div>
       </Wrapper>
     </div>
