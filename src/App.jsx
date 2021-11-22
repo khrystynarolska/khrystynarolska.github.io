@@ -8,7 +8,6 @@ import Menu from './components/Menu/Menu';
 import Profile from './components/Profile/Profile';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import Resume from './components/Resume/Resume';
 import Works from './components/Works/Works';
 import history  from './history';
 
@@ -25,7 +24,6 @@ const App = () => {
         <Profile />
         <Routes>
           <Route path='/' element={<About />} />
-          <Route path='/resume' element={<Resume />} />
           <Route path='/works' element={<Works />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>

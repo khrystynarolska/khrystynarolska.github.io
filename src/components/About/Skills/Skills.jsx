@@ -1,8 +1,7 @@
 import s from './Skills.module.scss';
-import Wrapper from '../Wrapper/Wrapper';
+import Wrapper from '../../Wrapper/Wrapper';
 import SkillsItem from './SkillsItem/SkillsItem';
 import Technologies from './Technologies/Technologies';
-// import Technology from './Technologies/Technology/Technology';
 
 const skills = ['HTML', 'CSS', 'JAVA SCRIPT', 'REACT']
 
