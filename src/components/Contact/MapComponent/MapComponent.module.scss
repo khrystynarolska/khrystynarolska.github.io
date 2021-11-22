@@ -1,0 +1,8 @@
+.mapComponent {
+  width: 100%;
+  position: relative;
+
+  & > div {
+    position: relative !important;
+  }
+}
