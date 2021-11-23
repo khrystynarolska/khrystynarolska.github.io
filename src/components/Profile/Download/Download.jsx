@@ -7,7 +7,7 @@ const links = [
   },
   {
     label: 'Contact Me',
-    href: '#contact'
+    href: '/contact'
   }
   ]
 
