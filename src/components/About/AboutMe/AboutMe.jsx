@@ -1,6 +1,6 @@
 import s from './AboutMe.module.scss';
 import InfoList from './InfoList/InfoList';
-import Wrapper from '../../Wrapper/Wrapper';
+import Wrapper from '../../common/Wrapper/Wrapper';
 
 const AboutMe = () => (
   <div className={s.aboutMe}>

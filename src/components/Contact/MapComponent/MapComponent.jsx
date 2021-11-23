@@ -10,7 +10,7 @@ export class MapComponent extends Component {
       <div className={s.mapComponent}>
         <Map
           google={this.props.google}
-          style={{ width: '720px', height: '242px', position: 'relative' }}
+          style={{ width: '720px', height: '250px', position: 'relative', paddingTop: '4px' }}
           zoom={14}
           initialCenter={{
             lat: 49.432434,

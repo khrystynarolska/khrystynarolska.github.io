@@ -1,5 +1,5 @@
 import s from './GetInTouch.module.scss';
-import Wrapper from '../../Wrapper/Wrapper';
+import Wrapper from '../../common/Wrapper/Wrapper';
 import ContactMeList from './ContactMeList/ContactMeList';
 import MapComponent from '../MapComponent/MapComponent';
 

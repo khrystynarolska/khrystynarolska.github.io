@@ -1,5 +1,5 @@
+import Info from '../../../common/Info/Info';
 import s from './ContactMeList.module.scss';
-import ContactMe from './ContactMe/ContactMe';
 
 const contactMeList = [
   {
@@ -16,14 +16,14 @@ const contactMeList = [
   },
 ]
 
-const ContactMeList = () => {
-  return (
-    <div className={s.contactMeList}>
+const ContactMeList = () => (
+  <div className={s.contactMeList}>
+    <div className={s.info}>
       {contactMeList.map((i, idx) => (
-      <ContactMe key={idx} label={i.label} value={i.value} />
-    ))}
+        <Info key={idx} label={i.label} value={i.value} />
+      ))}
     </div>
-  )
-}
+  </div>
+)
 
 export default ContactMeList

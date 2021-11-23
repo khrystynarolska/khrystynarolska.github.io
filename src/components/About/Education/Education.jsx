@@ -1,5 +1,5 @@
 import s from './Education.module.scss';
-import Wrapper from '../../Wrapper/Wrapper';
+import Wrapper from '../../common/Wrapper/Wrapper';
 import CertificatePDF from './Сertificate.pdf';
 
 const institutions = [

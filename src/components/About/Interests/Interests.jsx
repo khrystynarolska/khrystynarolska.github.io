@@ -1,5 +1,5 @@
 import s from './Interests.module.scss';
-import Wrapper from '../../Wrapper/Wrapper';
+import Wrapper from '../../common/Wrapper/Wrapper';
 
 const hobbies = [
   {

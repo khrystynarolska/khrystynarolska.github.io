@@ -1,4 +1,4 @@
-import Info from './Info/Info';
+import Info from '../../../common/Info/Info';
 import s from './InfoList.module.scss';
 
 const infoList = [

@@ -1,5 +1,5 @@
 import s from './Skills.module.scss';
-import Wrapper from '../../Wrapper/Wrapper';
+import Wrapper from '../../common/Wrapper/Wrapper';
 import SkillsItem from './SkillsItem/SkillsItem';
 import Technologies from './Technologies/Technologies';
 
