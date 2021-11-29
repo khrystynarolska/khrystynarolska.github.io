@@ -1,13 +1,17 @@
 .project {
-  width: 75%;
+  width: 487px;
   margin: 0 auto;
   position: relative;
+  padding: 15px 0;
 
   .image {
+    height: 100%;
+    max-height: 257px;
     box-shadow: 0px 3px 10px 0px #223c5033;
 
     img {
       width: 100%;
+      height: 257px;
     }
   }
 
@@ -15,7 +19,7 @@
     position: absolute;
     height: 80px;
     width: 180px;
-    bottom: 15px;
+    bottom: 30px;
     right: 15px;
     display: flex;
     flex-direction: column;
@@ -30,7 +34,6 @@
       color: #B35C0B;
       font-family: "Gotham Bold";
       font-size: 22px;
-      // padding: 29px 0;
     }
 
     p {
@@ -65,33 +68,6 @@
     }
   }
 
-  @keyframes showOpacity {
-    0% {
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.4s;
-    }
-    80% {
-      opacity: 0.8s;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  @keyframes showHeight {
-    0% {
-      height: 0px;
-    }
-    99% {
-      height: 0px;
-    }
-    100% {
-      height: max-content;
-    }
-  }
-
   &:hover .info {
     animation:
       showHeight 0.3s forwards,
@@ -99,7 +75,34 @@
   }
 
   &:hover .name {
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+  }
+}
+
+@keyframes showOpacity {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4s;
+  }
+  80% {
+    opacity: 0.8s;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showHeight {
+  0% {
+    height: 0px;
+  }
+  99% {
+    height: 0px;
+  }
+  100% {
+    height: max-content;
   }
 }

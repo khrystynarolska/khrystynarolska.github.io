@@ -1,16 +1,24 @@
-import s from './Projects.module.scss'
-import Project from './Project/Project'
+import s from './Projects.module.scss';
+import Project from './Project/Project';
 
-import imgLeospa from './assets/Leospa.png'
+import imgLeospa from './assets/Leospa.png';
+import imgMonticello from './assets/Monticello.png'
 
 const myProjects = [
+  {
+    src: imgMonticello,
+    lable: 'Monticello',
+    technologies: 'HTML, SCSS, JacaScript',
+    value: 'This is an vue project. This is a Leospa project with well-known components (hamburger menu, scroll to, shapes, tabs, etc.).',
+    href: ' https://khrystynarolska.github.io/monticello/'
+  },
   {
     src: imgLeospa,
     lable: 'Leospa',
     technologies: 'Vue js',
     value: 'This is an vue project. This is a Leospa project with well-known components (hamburger menu, scroll to, shapes, tabs, etc.).',
     href: 'https://khrystynarolska.github.io/leospa-vue-project/'
-  },
+  }
 ]
 
 const Projects = () => {
