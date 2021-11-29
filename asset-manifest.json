@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c403ce26.chunk.css",
-    "main.js": "/static/js/main.236f89cc.chunk.js",
-    "main.js.map": "/static/js/main.236f89cc.chunk.js.map",
+    "main.css": "/static/css/main.385ee96e.chunk.css",
+    "main.js": "/static/js/main.dbdfb2a7.chunk.js",
+    "main.js.map": "/static/js/main.dbdfb2a7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3b9e25d.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3b9e25d.js.map",
     "static/js/2.5da06a61.chunk.js": "/static/js/2.5da06a61.chunk.js",
@@ -10,17 +10,18 @@
     "static/js/3.f8efe739.chunk.js": "/static/js/3.f8efe739.chunk.js",
     "static/js/3.f8efe739.chunk.js.map": "/static/js/3.f8efe739.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c403ce26.chunk.css.map": "/static/css/main.c403ce26.chunk.css.map",
+    "static/css/main.385ee96e.chunk.css.map": "/static/css/main.385ee96e.chunk.css.map",
     "static/js/2.5da06a61.chunk.js.LICENSE.txt": "/static/js/2.5da06a61.chunk.js.LICENSE.txt",
     "static/media/__fonts.scss": "/static/media/Open Sans Regular.82394c2a.woff",
     "static/media/Leospa.ae669306.png": "/static/media/Leospa.ae669306.png",
+    "static/media/Monticello.6031b5fe.png": "/static/media/Monticello.6031b5fe.png",
     "static/media/my-photo.a8ae9af6.jpeg": "/static/media/my-photo.a8ae9af6.jpeg",
     "static/media/Сertificate.0f2ecc05.pdf": "/static/media/Сertificate.0f2ecc05.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.c3b9e25d.js",
     "static/js/2.5da06a61.chunk.js",
-    "static/css/main.c403ce26.chunk.css",
-    "static/js/main.236f89cc.chunk.js"
+    "static/css/main.385ee96e.chunk.css",
+    "static/js/main.dbdfb2a7.chunk.js"
   ]
 }
