@@ -7,9 +7,9 @@ import Interests from './Interests/Interests';
 const About = () => (
   <div className={s.about}>
     <AboutMe />
-    <Skills />
-    <Education />
-    <Interests />
+    {/* <Skills /> */}
+    {/* <Education /> */}
+    {/* <Interests /> */}
   </div>
 )
 

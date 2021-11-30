@@ -4,8 +4,16 @@
   align-items: center;
   width: 100%;
 
+  @media screen and (max-width: 1110px) {
+    flex-direction: column;
+  }
+
   .description {
     width: 50%;
+
+    @media screen and (max-width: 1110px) {
+      width: 100%;
+    }
   
     p {
       font-family: "Open Sans Regular";
