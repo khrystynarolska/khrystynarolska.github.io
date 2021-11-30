@@ -5,6 +5,10 @@
   margin: 10px;
   padding: 2px;
 
+  @media screen and (max-width: 1110px) {
+    margin: 3px;
+    }
+
   span {
     font-family: "Gotham Bold";
     font-size: 13px;
