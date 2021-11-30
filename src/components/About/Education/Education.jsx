@@ -5,12 +5,17 @@ import CertificatePDF from './Сertificate.pdf';
 const institutions = [
   {
     institution: 'Khmelnytsky National University',
-    specialty: 'Specialty - personnel management and labor economics',
-    trainingPeriod: '2015-2020'
+    specialty: 'Master Degree, Personnel management and labor economics',
+    trainingPeriod: 'September 2019 – December 2020'
+  },
+  {
+    institution: 'Khmelnytsky National University',
+    specialty: 'Bachelor Degree, Personnel management and labor economics',
+    trainingPeriod: 'September 2015 – Lune 2019'
   },
   {
     institution: 'Beetroot Academy',
-    specialty: 'Specialty - Front-End Developer',
+    specialty: 'Front-End Developer',
     trainingPeriod: 'June 2021 - October 2021'
   }
 ]

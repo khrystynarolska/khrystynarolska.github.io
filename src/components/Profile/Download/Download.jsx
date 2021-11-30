@@ -1,24 +1,12 @@
-import s from './Download.module.scss'
-
-const links = [
-  {
-    label: 'Download my CV', 
-    href: '#downloadCV'
-  },
-  {
-    label: 'Contact Me',
-    href: '/contact'
-  }
-  ]
+import { Link } from "react-router-dom";
+import s from './Download.module.scss';
+import ResumePDF from './Khrystyna Rolska.pdf';
 
 const Download = () => {
   return (
     <div className={s.download}>
-      {links.map((i, idx) => (
-        <a href={i.href} key={idx}>
-          <span>{i.label}</span>
-        </a>
-      ))}
+      <a href={ResumePDF} target='_blank'>Download my CV</a>
+      <Link to='/contact'>Contact Me</Link>
     </div>
   )
 }
