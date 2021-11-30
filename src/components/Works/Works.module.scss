@@ -5,7 +5,9 @@
   margin-top: 13px;
 
   @media screen and (max-width: 1110px) {
+    width: 100%;
     overflow-y: inherit;
+    height: auto;
   }
 
   p {

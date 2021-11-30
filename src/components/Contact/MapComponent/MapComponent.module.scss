@@ -4,5 +4,9 @@
 
   & > div {
     position: relative !important;
+
+    & > div {
+      width: 100% !important;
+    }
   }
 }
