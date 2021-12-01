@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Open Sans Regular";
 
   .label {
     margin: 20px 10px 20px 0;
@@ -15,7 +16,7 @@
   .value {
     color: #666262;
 
-    @media screen and (max-width: 370px) {
+    @media screen and (max-width: 450px) {
       font-size: 14px;
     }
   }

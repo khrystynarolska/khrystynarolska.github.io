@@ -33,14 +33,11 @@ body {
 
   @media screen and (max-width: 1300px) {
     max-width: 500px;
-    padding: 40px 0;
+    padding: 25px 0;
     flex-direction: column;
     align-items: center;
     transform: translate(0, 0);
     margin: 0 auto;
     display: block;
-    // height: max-content;
-    // overflow-y: scroll;
-    // overflow-x: hidden;
   }
 }
