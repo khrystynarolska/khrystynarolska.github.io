@@ -3,8 +3,9 @@
   overflow-y: scroll;
   margin-top: 13px;
   
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1300px) {
     width: 100%;
     height: auto;
+    overflow: hidden;
   }
 }

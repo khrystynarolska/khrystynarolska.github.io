@@ -6,7 +6,7 @@ body {
   background: linear-gradient(180deg, #b05c0c03 0%, #b05c0c66 100%);
   position: relative;
 
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1300px) {
     background: #ECD5C5;
   }
 }
@@ -17,8 +17,12 @@ body {
   align-items: center;
   height: 100vh;
 
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1300px) {
     height: 100%;
+  }
+
+  @media screen and (max-width: 515px) {
+    padding: 0 10px;
   }
 }
 
@@ -27,11 +31,7 @@ body {
   max-width: 1200px;
   display: flex;
 
-  @media screen and (min-width: 1110px) and (max-width: 1220px) {
-    max-width: 1100px;
-  }
-
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1300px) {
     max-width: 500px;
     padding: 40px 0;
     flex-direction: column;
@@ -39,8 +39,8 @@ body {
     transform: translate(0, 0);
     margin: 0 auto;
     display: block;
-    height: max-content;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    // height: max-content;
+    // overflow-y: scroll;
+    // overflow-x: hidden;
   }
 }
