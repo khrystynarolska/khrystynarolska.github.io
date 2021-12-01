@@ -1,12 +1,24 @@
 body {
   height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
   background: linear-gradient(180deg, #b05c0c03 0%, #b05c0c66 100%);
   position: relative;
 
   @media screen and (max-width: 1110px) {
-    height: auto;
+    background: #ECD5C5;
+  }
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  @media screen and (max-width: 1110px) {
+    height: 100%;
   }
 }
 
@@ -14,10 +26,6 @@ body {
   width: 100%;
   max-width: 1200px;
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
   @media screen and (min-width: 1110px) and (max-width: 1220px) {
     max-width: 1100px;
@@ -28,10 +36,11 @@ body {
     padding: 40px 0;
     flex-direction: column;
     align-items: center;
-    position: static;
-    top: 0;
-    left: 0;
     transform: translate(0, 0);
     margin: 0 auto;
+    display: block;
+    height: max-content;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 }

@@ -19,14 +19,16 @@ const App = () => {
   
   return (
     <BrowserRouter history={history}>
-      <div className='container'>
+      <div className="mainWrapper">
         <Menu />
-        <Profile />
-        <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/works' element={<Works />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
+        <div className="container">
+          <Profile />
+          <Routes>
+            <Route path='/' element={<About />} />
+            <Route path='/works' element={<Works />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </div>
       </div>
     </BrowserRouter>
   )
