@@ -1,23 +1,29 @@
 .menu {
   height: max-content;
-  background-color: #fff;
   border-radius: 4px;
   margin-right: 7px;
   margin-top: -335px;
+  background-color: #fff;
 
   @media screen and (max-width: 1300px) {
-    position: absolute;
+    position: fixed;
     border-radius: 0;
-    z-index: 1000;
-    top: 0;
-    width: 500px;
+    z-index: 6;
+    top: 27px;
+    left: 15%;
+    width: auto;
     margin: 0;
-    transform: translate3d(0, 0, 0);
-    background-color: #fff !important;
-    // box-shadow: 0 0 15px #3c3c3c;
+    box-shadow: 0 0 15px #3c3c3c;
   }
 
-  @media screen and (max-width: 515px) {
+  @media screen and (max-width: 973px) {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    left: auto;
+  }
+
+  @media screen and (max-width: 517px) {
     width: auto;
   }
 }
@@ -37,15 +43,15 @@
         color: #000;
         padding: 25px 0;
         position: relative;
+
+        @media screen and (max-width: 973px) {
+          padding: 10px 0;
+        }
   
         span {
           font-family: "Gotham Medium Regular";
           margin: 15px 10px 0 10px;
           font-size: 10px;
-        }
-
-        @media screen and (max-width: 1300px) {
-          padding: 10px 0;
         }
       }
   
@@ -67,13 +73,8 @@
         display: none;
       }
 
-      @media screen and (max-width: 1300px) {
-        width: 75px;
-        padding: 0 45px;
-      }
-
-      @media screen and (max-width: 1300px) {
-        padding: 0 13px;
+      @media screen and (max-width: 973px) {
+        padding: 0 20px;
       }
     }
   
@@ -83,7 +84,7 @@
       transition: color 0.3s ease 0s;
     }
 
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 973px) {
       display: flex;
       justify-content: center;
       align-items: center;

@@ -109,12 +109,8 @@
   }
 
   &:hover .name {
-    width: calc(100% - 60px);
+    width: calc(100% - 30px);
     height: calc(100% - 60px);
-
-    @media screen and (max-width: 515px) {
-      width: calc(100% - 30px);
-    }
   }
 }
 
