@@ -8,11 +8,12 @@
   @media screen and (max-width: 1300px) {
     position: absolute;
     border-radius: 0;
-    z-index: 6;
+    z-index: 1000;
     top: 0;
     width: 500px;
     margin: 0;
-    // background-color: #fff !important;
+    transform: translate3d(0, 0, 0);
+    background-color: #fff !important;
     // box-shadow: 0 0 15px #3c3c3c;
   }
 
