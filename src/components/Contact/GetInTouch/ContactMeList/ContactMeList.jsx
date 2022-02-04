@@ -8,7 +8,7 @@ const contactMeList = [
   },
   {
     label: 'Email',
-    value: 'krystynarolskaya2017@gmail.com'
+    value: 'khrystyna_denysiuk@ukr.net'
   },
   {
     label: 'Phone',
